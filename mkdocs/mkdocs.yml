@@ -1,1 +1,7 @@
 site_name: vagrant-docker 实践
+nav:
+  - Home : index.md
+  - vagrant : vagrant.md
+  - docker : docker.md
+
+theme: readthedocs

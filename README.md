@@ -6,7 +6,7 @@
 
 # 一、起因
 
-通常使用 vmware 或者 virtulBox 在windows下安装 linux 。
+通常使用 vmware 或者 virtualBox 在windows下安装 linux 。
 
 使用过程有两个主要步骤：
 
@@ -30,7 +30,7 @@ vagrant可以直接从vagrant的网站上，通过url或者名字下载iso镜像
 
 在运行iso之前，vagrant生成 vagrantfile 配置文件，可以通过配置文件增加定制的行为。
 
-默认配置的 vagrant 运行虚拟环境没有virtulBox的GUI界面，感觉就像使用远程服务器一样。
+默认配置的 vagrant 运行虚拟环境没有virtualBox的GUI界面，感觉就像使用远程服务器一样。
 
 根据vagrant运行过程产生的内容，可以分为两个部分：
 

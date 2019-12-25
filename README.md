@@ -49,7 +49,6 @@ vagrant可以直接从vagrant的网站上，通过url或者名字下载iso镜像
    说了这么多，还没有体现vagranat的优势，为什么要用vagrant呢？
 
    
-
    vagrantfile是一个文本文件，类似 apache httpd.conf 或者nginx的配置文件。
 
    如果有一个svn版本管理系统，通过svn对vagrantfile进行管理和共享。
@@ -59,7 +58,8 @@ vagrant可以直接从vagrant的网站上，通过url或者名字下载iso镜像
    1. 从vagrant网站下载镜像 - `vagrant box add [box-name]` 
    2. 下载svn中的vagrantfile后，在vagrantfile文件所在目录执行 - `vagranta up`即可！
 
-   
+   另外，使用一个 box 镜像，可以创建任意多个独立的虚拟环境。
+   比如，在尝试安装、配置软件过程中，出现不可恢复的错误，直接删除当前的虚拟环境，重新创建即可。
 
    如果使用的环境比较简单，这些事情 docker 也可以做。但是，如果环境复杂，特别是特殊的测试环境，vagrant有很大的优势。还有，vagrant在windows、linux、mac上都可以很好的兼容，而且也支持很多的虚拟软件，比如 vmware、virtualBox、Hyper-V,Docker
 

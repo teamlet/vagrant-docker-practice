@@ -31,8 +31,52 @@
 * `vagrant ssh`
 
     通过 `vagrant up`启动默认配置的虚拟环境后，没有使用 virtualBox 的交互界面。 除非手动修改配置，否则就需要通过 SSH 连接虚拟环境。
-    执行此命令后，本主机直接进入虚拟环境。此后，在虚拟环境中，用户名和密码都是 `vagrant`。
-    
+    执行此命令后，本主机直接进入虚拟环境。此后，在虚拟环境中，用户名和密码都是 `vagrant`。  
+
+
+* 更新本地环境中指定的box
+
+　　`vagrant box update box-name`
+
+* 删除本地环境中指定的box
+
+　　`vagrant box remove box-name`
+
+* 重新打包本地环境中指定的box
+
+　　`vagrant box repackage box-name`
+
+* 在空文件夹初始化虚拟机
+
+　　`vagrant init [box-name]`
+
+* 在初始化完的文件夹内启动虚拟机
+
+　　`vagrant up`
+
+* ssh登录启动的虚拟机
+
+　　`vagrant ssh`
+
+* 挂起启动的虚拟机
+
+　　`vagrant suspend`
+
+* 重启虚拟机
+
+　　`vagrant reload`
+
+* 关闭虚拟机
+
+　　`vagrant halt`
+
+* 查找虚拟机的运行状态
+
+　　`vagrant status`
+
+* 销毁当前虚拟机
+
+　　`vagrant destroy`
 
 ## vagrant 环境设置
 
